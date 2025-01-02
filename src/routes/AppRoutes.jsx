@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import LoginComponent from '../pages/LoginPageComponent/LoginPageComponent'
+import SignupComponent from '../pages/SignupPageComponent/SignupPageComponent'
 
 const AppRoutes = () => {
   return (
@@ -9,7 +10,7 @@ const AppRoutes = () => {
       <Routes>
         <Route exact path='/' element={<div>Home Page</div>}/>
         <Route path='/login' element={<LoginComponent/>}/>
-        <Route path='/signup' element={<div>Signup</div>}/>
+        <Route path='/signup' element={<SignupComponent/>}/>
         <Route path='/*' element={<div>Error Page</div>}/>
       </Routes>
     </Suspense>
