@@ -1,8 +1,3 @@
-# React + Vite
+# Oppurtune
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Opportune is a forward-thinking platform that connects talented individuals with opportunities, offering a direct pathway to success. It allows students and experienced candidates to showcase their skills through projects, ensuring they are recognized for their abilities rather than being held back by college politics or outdated recruitment processes. Like a seed sprouting in fertile soil, Opportune nurtures talent by giving it visibility in front of HR professionals, hiring managers, and startup CEOs. This open environment empowers individuals to break free from traditional barriers, creating a space where innovation flourishes, and opportunities grow. It’s a place where real skills meet real needs, enabling both companies and candidates to find their perfect match.
