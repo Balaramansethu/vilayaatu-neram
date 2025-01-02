@@ -10,6 +10,13 @@
     font-family: 'Inter';
     background-color: black;
     color: white;
+    --gray-100: #a1a1a1;
+    --gray-300: #333;
+    --gray-500: #555;
+    --gray-600: #666;
+    --gray-800: #888;
+    --gray-ccc: #ccc;
+    --green-500: #017e28;
 }
 
 @font-face {

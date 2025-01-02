@@ -1,21 +1,37 @@
 import React from 'react'
-import InputComponent from '../InputComponent/InputComponent'
 
-function FormInputComponent({ label, type, name, placeholder, value, onChange, error }) {
+const FormInputComponent = ({
+    id,
+    name,
+    type = 'text',
+    value,
+    placeholder,
+    label,
+    onChange,
+    error,
+    containerClass,
+    inputClass,
+    labelClass,
+    errorClass,
+    ...props
+}) => {
     return (
-        <div className="relative">
-            <InputComponent
+        <div className={containerClass}>
+            <input
                 type={type}
+                id={id}
                 name={name}
-                placeholder={placeholder}
+                className={inputClass}
                 value={value}
+                placeholder={placeholder}
                 onChange={onChange}
-                className="block w-full px-3 py-2 text-slate-900 border border-gray-400 rounded-md focus:border-blue-400 appearance-none focus:outline-none focus:ring-1 focus:ring-blue-100 transition-all duration-200 peer"
+                {...props}
             />
-            {error && <span className="text-red-500 text-xs">{error}</span>}
-
+            <label htmlFor={id} className={labelClass}>
+                {label}
+            </label>
+            {error && <p className={errorClass}>{error}</p>}
         </div>
-
     )
 }
 
