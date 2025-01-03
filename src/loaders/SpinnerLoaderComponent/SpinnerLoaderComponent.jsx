@@ -5,6 +5,8 @@ import spinnerStyles from './SpinnerLoaderComponent.module.css'
 // comment bro 
 function SpinnerLoaderComponent() {
 // Hello
+
+    // hello this is thiru trying --rebase
     return (
         <svg
           className={spinnerStyles.loader}
