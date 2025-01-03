@@ -14,6 +14,7 @@ const AppRoutes = () => {
         <Route path='/request-otp' element={<RequestOtpPage/>}/>
         <Route path='/*' element={<div>Error Page</div>}/>
         <Route path='/prabanjanlogin' element={<div>Login by prabanjan</div>}/>
+        <Route path='/google-auth-redirect' element={<LoginPage />} />
       </Routes>
     </Suspense>
   )
