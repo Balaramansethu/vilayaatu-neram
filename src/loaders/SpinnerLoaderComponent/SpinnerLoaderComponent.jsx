@@ -21,5 +21,5 @@ function SpinnerLoaderComponent() {
         </svg>
       );
 }
-
+// Puthusu ??
 export default SpinnerLoaderComponent
