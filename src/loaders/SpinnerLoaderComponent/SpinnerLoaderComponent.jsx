@@ -4,7 +4,7 @@ import spinnerStyles from './SpinnerLoaderComponent.module.css'
 //second prabanjan comment
 // comment bro 
 function SpinnerLoaderComponent() {
-
+// Hello
     return (
         <svg
           className={spinnerStyles.loader}
