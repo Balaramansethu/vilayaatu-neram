@@ -24,5 +24,5 @@ function SpinnerLoaderComponent() {
         // hello bala
       );
 }
-
+// Puthusu ??
 export default SpinnerLoaderComponent
