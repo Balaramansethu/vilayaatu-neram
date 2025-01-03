@@ -1,5 +1,7 @@
 import spinnerStyles from './SpinnerLoaderComponent.module.css'
 //prabanjan comment
+// dummy comment bro
+
 function SpinnerLoaderComponent() {
 
     return (
